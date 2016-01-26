@@ -1,0 +1,41 @@
+$main-color: #734854;
+
+body.login { 
+    background-color: #f8f8f8;
+    height: 100% !important; 
+    div#login {
+        padding-top: 120px !important;
+        h1 {
+            position: relative;
+            a {
+                background-image: image-url('your-logo-admin.png') !important;
+                background-size: image-width('your-logo-admin.png')*.7 image-height('your-logo-admin.png')*.7 !important;
+                width: image-width('your-logo-admin.png')*.7 !important;
+                height: image-height('your-logo-admin.png')*.7 !important;
+                padding-bottom: 0 !important;
+                margin-bottom: 20px !important;
+            }
+        }
+        form#loginform {
+            margin-top: 5px !important;
+        }
+    }
+    #nav a, #backtoblog a {
+        color: $main-color !important;
+    }
+}
+
+body.login input.button-primary, button.button-primary, a.button-primary {
+    color: #fff !important;
+    background: $main-color !important;
+    text-shadow:none;
+    box-shadow: none !important;
+    border:none !important;
+    &:hover {
+        font-weight: bold;
+        color: #fff !important;
+        background: darken(#fff, 80) !important;
+        text-shadow:none;
+    }
+}
+
