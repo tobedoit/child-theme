@@ -1,9 +1,35 @@
 // http://martian36.tistory.com/1414
-@include font-face(NanumBarunGothic, font-files('NanumBarunGothic.eot', 'NanumBarunGothic.ttf', 'NanumBarunGothic.woff', 'NanumBarunGothic.woff2', 'NanumBarunGothic.svg#NanumBarunGothic'), $weight: normal, $style: normal);
-//@include font-face(NanumBarunGothicBold, font-files('NanumBarunGothicBold.eot', 'NanumBarunGothicBold.ttf', 'NanumBarunGothicBold.woff', 'NanumBarunGothicBold.woff2', 'NanumBarunGothicBold.svg#NanumBarunGothicBold'), $weight: normal, $style: normal);
-//@include font-face(NanumBarunGothicLight, font-files('NanumBarunGothicLight.eot', 'NanumBarunGothicLight.ttf', 'NanumBarunGothicLight.woff', 'NanumBarunGothicLight.woff2', 'NanumBarunGothicLight.svg#NanumBarunGothicLight'), $weight: normal, $style: normal);
-@include font-face(NanumBarunGothicUltraLight, font-files('NanumBarunGothicUltraLight.eot', 'NanumBarunGothicUltraLight.ttf', 'NanumBarunGothicUltraLight.woff', 'NanumBarunGothicUltraLight.woff2', 'NanumBarunGothicUltraLight.svg#NanumBarunGothicUltraLight'), $weight: normal, $style: normal);
-//@include font-face(NanumMyeongjo, font-files('NanumMyeongjo.eot', 'NanumMyeongjo.woff'), $weight: normal, $style: normal);
-//@include font-face(SpoqaHanSans-Thin, font-files('SpoqaHanSans-Thin.eot', 'SpoqaHanSans-Thin.ttf', 'SpoqaHanSans-Thin.woff', 'SpoqaHanSans-Thin.svg#SpoqaHanSans-Thin'), $weight: normal, $style: normal);
-//@include font-face(SpoqaHanSans-Regular, font-files('SpoqaHanSans-Regular.eot', 'SpoqaHanSans-Regular.ttf', 'SpoqaHanSans-Regular.woff', 'SpoqaHanSans-Regular.svg#SpoqaHanSans-Regular'), $weight: normal, $style: normal);
-//@include font-face(SpoqaHanSans-Bold, font-files('SpoqaHanSans-Bold.eot', 'SpoqaHanSans-Bold.ttf', 'SpoqaHanSans-Bold.woff', 'SpoqaHanSans-Bold.svg#SpoqaHanSans-Bold'), $weight: normal, $style: normal);
+// http://martian36.com/1448 (나눔스퀘어)
+// http://mcatcher3.cafe24.com/%EB%AC%B4%EB%A3%8C%ED%8F%B0%ED%8A%B8-%EB%B3%B8%EA%B3%A0%EB%94%95-%EC%9B%B9%ED%8F%B0%ED%8A%B8-%EC%82%AC%EC%9A%A9%EB%B2%95/ (본고딕 - noto sans)
+// https://github.com/sayho87/SourceHanSerif-subset (본명조 - noto serif)
+
+@include font-face(NanumSquare, font-files('nanumsquarer.eot', 'nanumsquarer.ttf', 'nanumsquarer.woff', 'nanumsquarer.woff2', 'nanumsquarer.svg#nanumsquareRegular'), $weight: normal, $style: normal);
+@include font-face(NanumSquareBold, font-files('nanumsquareb.eot', 'nanumsquareb.ttf', 'nanumsquareb.woff', 'nanumsquareb.woff2', 'nanumsquareb.svg#nanumsquareBold'), $weight: normal, $style: normal);
+// @include font-face(NanumBarunGothic, font-files('NanumBarunGothic.eot', 'NanumBarunGothic.ttf', 'NanumBarunGothic.woff', 'NanumBarunGothic.woff2', 'NanumBarunGothic.svg#NanumBarunGothic'), $weight: normal, $style: normal);
+// @include font-face(NanumBarunGothicBold, font-files('NanumBarunGothicBold.eot', 'NanumBarunGothicBold.ttf', 'NanumBarunGothicBold.woff', 'NanumBarunGothicBold.woff2', 'NanumBarunGothicBold.svg#NanumBarunGothicBold'), $weight: normal, $style: normal);
+// @include font-face(NanumBarunGothicLight, font-files('NanumBarunGothicLight.eot', 'NanumBarunGothicLight.ttf', 'NanumBarunGothicLight.woff', 'NanumBarunGothicLight.woff2', 'NanumBarunGothicLight.svg#NanumBarunGothicLight'), $weight: normal, $style: normal);
+// @include font-face(NanumBarunGothicUltraLight, font-files('NanumBarunGothicUltraLight.eot', 'NanumBarunGothicUltraLight.ttf', 'NanumBarunGothicUltraLight.woff', 'NanumBarunGothicUltraLight.woff2', 'NanumBarunGothicUltraLight.svg#NanumBarunGothicUltraLight'), $weight: normal, $style: normal);
+// @include font-face(NanumMyeongjo, font-files('NanumMyeongjo.eot', 'NanumMyeongjo.woff'), $weight: normal, $style: normal);
+
+// @include font-face(SpoqaHanSans-Thin, font-files('SpoqaHanSans-Thin.eot', 'SpoqaHanSans-Thin.ttf', 'SpoqaHanSans-Thin.woff', 'SpoqaHanSans-Thin.svg#SpoqaHanSans-Thin'), $weight: normal, $style: normal);
+// @include font-face(SpoqaHanSans-Regular, font-files('SpoqaHanSans-Regular.eot', 'SpoqaHanSans-Regular.ttf', 'SpoqaHanSans-Regular.woff', 'SpoqaHanSans-Regular.svg#SpoqaHanSans-Regular'), $weight: normal, $style: normal);
+// @include font-face(SpoqaHanSans-Bold, font-files('SpoqaHanSans-Bold.eot', 'SpoqaHanSans-Bold.ttf', 'SpoqaHanSans-Bold.woff', 'SpoqaHanSans-Bold.svg#SpoqaHanSans-Bold'), $weight: normal, $style: normal);
+
+// @include font-face(AritaBuri, font-files('Arita-buri-Regular.eot', 'Arita-buri-Regular.woff'), $weight: normal, $style: normal);
+// @include font-face(AritaBuriLight, font-files('Arita-buri-Thin.eot', 'Arita-buri-Thin.woff'), $weight: normal, $style: normal);
+// @include font-face(AritaBuriBold, font-files('Arita-buri-Bold.eot', 'Arita-buri-Bold.woff'), $weight: normal, $style: normal);
+// @include font-face(AritaBuriExtraBold, font-files('Arita-buri-ExtraBold.eot', 'Arita-buri-ExtraBold.woff'), $weight: normal, $style: normal);
+
+// @include font-face(Bm_Hanna, font-files('BM-HANNA.eot', 'BM-HANNA.woff'), $weight: normal, $style: normal);
+@include font-face(Bm_Dohyeon, font-files('BM-DOHYEON.eot', 'BM-DOHYEON.woff'), $weight: normal, $style: normal);
+
+// @include font-face(NotoKrL, font-files('notokr-light.eot', 'notokr-light.woff', 'notokr-light.woff2'), $weight: 100, $style: normal);
+@include font-face(NotoKrR, font-files('notokr-regular.eot', 'notokr-regular.woff', 'notokr-regular.woff2'), $weight: 300, $style: normal);
+// @include font-face(NotoKrM, font-files('notokr-medium.eot', 'notokr-medium.woff', 'notokr-medium.woff2'), $weight: 500, $style: normal);
+// @include font-face(NotoKrB, font-files('notokr-bold.eot', 'notokr-bold.woff', 'notokr-bold.woff2'), $weight: 700, $style: normal);
+
+// @include font-face(NotoSerifKrL, font-files('SourceHanSerifKR-Light_subset.eot', 'SourceHanSerifKR-Light_subset.woff', 'SourceHanSerifKR-Light_subset.woff2'), $weight: 200, $style: normal);
+@include font-face(NotoSerifKrR, font-files('SourceHanSerifKR-Regular_subset.eot', 'SourceHanSerifKR-Regular_subset.woff', 'SourceHanSerifKR-Regular_subset.woff2'), $weight: 300, $style: normal);
+// @include font-face(NotoSerifKrM, font-files('SourceHanSerifKR-Medium_subset.eot', 'SourceHanSerifKR-Medium_subset.woff', 'SourceHanSerifKR-Medium_subset.woff2'), $weight: 400, $style: normal);
+// @include font-face(NotoSerifKrSB, font-files('SourceHanSerifKR-SemiBold_subset.eot', 'SourceHanSerifKR-SemiBold_subset.woff', 'SourceHanSerifKR-SemiBold_subset.woff2'), $weight: 500, $style: normal);
+// @include font-face(NotoSerifKrB, font-files('SourceHanSerifKR-Bold_subset.eot', 'SourceHanSerifKR-Bold_subset.woff', 'SourceHanSerifKR-Bold_subset.woff2'), $weight: 600, $style: normal);

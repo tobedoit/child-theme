@@ -3,10 +3,10 @@
 /* 로그인 & 회원가입 대시보드 수정
 =============================================== */
 function my_login_logo() {
-    wp_register_style( 'dashboard' , get_bloginfo( 'stylesheet_directory' ) . "/dashboard.css");
-	wp_enqueue_style( 'dashboard');
+    wp_register_style( 'zmes_dashboard' , get_bloginfo( 'stylesheet_directory' ) . '/dashboard.css');
+	wp_enqueue_style( 'zmes_dashboard');
 }
-add_action( 'login_enqueue_scripts', 'my_login_logo' );
+add_action( 'login_head', 'my_login_logo' );
 /* to change the URL */
 function my_login_logo_url() {return get_bloginfo( 'url' );}
 add_filter( 'login_headerurl', 'my_login_logo_url' );

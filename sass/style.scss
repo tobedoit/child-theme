@@ -3,6 +3,12 @@
 @import 'theme_info';
 @import 'fonts';
 
-$base-font: 'NanumBarunGothicUltraLight';
-$base-font-bold: 'NanumBarunGothic';
+$base-font: 'NanumSquare';
+$base-font-bold: 'NanumSquareBold';
 
+* {
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+}
